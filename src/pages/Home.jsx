@@ -16,7 +16,7 @@ const Home = () => {
             <div className="h-50 w-50 sm:h-60 sm:w-60 rounded-full overflow-hidden border-4 border-white shadow-lg shrink-0">
                <img
                className='w-full h-full object-cover object-top'
-               src='/public/prash.jpeg'/>
+               src={`${import.meta.env.BASE_URL}prash.jpg`} alt='profile photo' />
             </div>
         </div>
      </div>

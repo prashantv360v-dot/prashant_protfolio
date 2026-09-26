@@ -15,7 +15,7 @@ const About = () => {
 
          <img
                className='w-full h-full object-cover object-top'
-               src='/public/prash.jpeg'/>
+               src={`${import.meta.env.BASE_URL}prash.jpg`} alt='profile photo'/>
       </div>
       </div>
       
